@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+:root {
+    --mainBG: #344285;
+
+    --headerBG: #283366;
+    --headerBorder: #1a265a;
+    --headerLink: #1682d4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: var(--mainBG);
+    color: #FAF8F6;
+    font-family: Ubuntu, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
