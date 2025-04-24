@@ -1,0 +1,13 @@
+.aboutme {
+    margin-top: 50px;
+    background-color: var(--secondBG);
+}
+
+.aboutme__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.aboutme__img {
+    margin: 5px 5px 0 0;
+}

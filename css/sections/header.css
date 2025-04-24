@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 7px;
-    background-color: var(--headerBG);
+    background-color: var(--secondBG);
     border-bottom: 2px var(--headerBorder) solid;
     border-left: 2px var(--headerBorder) solid;
     border-right: 2px var(--headerBorder) solid;
@@ -20,6 +20,11 @@
 .header-container {
     max-width: 700px;
     margin: 0 auto;
+}
+
+.header__current a {
+    color: var(--headerUnavalible);
+    cursor: not-allowed;
 }
 
 .separator {

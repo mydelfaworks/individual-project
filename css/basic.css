@@ -2,10 +2,11 @@
 
 :root {
     --mainBG: #344285;
+    --secondBG: #283366;
 
-    --headerBG: #283366;
     --headerBorder: #1a265a;
     --headerLink: #1682d4;
+    --headerUnavalible: #1c69a5;
 }
 
 * {
@@ -19,9 +20,9 @@ body, html {
     font-family: Ubuntu, sans-serif;
 }
 
-img {
+/* img {
     max-width: 100%;
-}
+} */
 
 a {
     text-decoration: none;
