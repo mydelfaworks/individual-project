@@ -3,12 +3,12 @@
     padding: 120px 0 150px 0;
 }
 
-.footer__content {
-    display: flex;
-    justify-content: space-between;
-}
+.footer__content {}
 
-.footer__info {}
+.footer__info {
+    display: flex;
+    gap: 25px;
+}
 
 .footer__info .logo a img {
     max-width: 150px;
@@ -26,6 +26,11 @@
     margin-top: 20px;
 }
 
+@media(max-width: 700px) {
+    .footer__info {
+        flex-direction: column;
+    }
+}
 @media(max-width: 600px) {
     .footer {
         padding: 70px 0;

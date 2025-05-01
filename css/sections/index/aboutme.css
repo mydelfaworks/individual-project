@@ -6,6 +6,7 @@
 .aboutme__content {
     display: flex;
     padding: 25px 0;
+    justify-content: center;
 }
 
 .aboutme__title {
@@ -19,6 +20,7 @@
 .aboutme__main-text {
     padding: 5px;
     font-size: clamp(0.875rem, 0.607rem + 0.714vw, 1.25rem);
+    max-width: 400px;
 }
 .aboutme__main-text a {
     color: var(--headerLink);

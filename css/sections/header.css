@@ -11,6 +11,10 @@
     border-radius: 0 0 5px 5px;
 }
 
+.header__first, .header__second {
+    display: flex;
+}
+
 .header a {
     color: var(--headerLink);
     text-transform: uppercase;
@@ -29,4 +33,13 @@
 
 .separator {
     margin: 0 8px;
+}
+
+@media(max-width: 550px) {
+    .header {
+        flex-direction: column;
+    }
+    .after-first {
+        display: none;
+    }
 }
