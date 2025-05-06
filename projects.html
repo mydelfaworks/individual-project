@@ -10,9 +10,16 @@
 
     <body>
         <header class="header header-container">
-            <div><a href="index.html">главная</a></div>
-            <span class="separator">|</span>
-            <div class="header__current"><a href="#">проекты</a></div>
+            <div class="header__first">
+                <div><a href="index.html">главная</a></div>
+                <span class="separator">|</span>
+                <div><a href="projects.html">проекты</a></div>
+            </div>
+            <span class="separator after-first">|</span>
+            <div class="header__second">
+                <div><a href="future.html">направления</a></div>
+                <span class="separator">|</span>
+                <div><a href="gallery.html">галерея</a></div>
         </header>
 
         <main>
@@ -69,35 +76,46 @@
             </section>
         </main>
 
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__content">
-                    <div class="footer__info">
-                        <div class="logo__block">
-                            <div class="logo">
-                                <a href="#">
-                                    <img src="img/nasral-inc.png">
-                                </a>
-                            </div>
-                            <div class="footer__text">
-                                © 2024 Nasral Inc, Все права блаблаблаблеблебле.
-                            </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <div class="logo__block">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="img/nasral-inc.png">
+                            </a>
                         </div>
-
-                        <div class="logo__block">
-                            <div class="logo">
-                                <a href="https://honakac.github.io" target="_blank">
-                                    <img src="img/r2team.png">
-                                </a>
-                            </div>
-                            <div class="footer__text">
-                                © 2025 r2team, Все права блублублухаблублублу.
-                            </div>
+                        <div class="footer__text">
+                            © 2024 Nasral Inc, Все права блаблаблаблеблебле.
                         </div>
                     </div>
+    
+                    <div class="logo__block">
+                        <div class="logo">
+                            <a href="https://honakac.github.io" target="_blank">
+                                <img src="img/r2team.png">
+                            </a>
+                        </div>
+                        <div class="footer__text">
+                            © 2025 r2team, Все права блублублухаблублублу.
+                        </div>
+                    </div>
+    
+                    <nav class="footer__nav">
+                        <ul class="footer__list">
+                            <div class="footer__column">
+                                <li class="footer__item"><a href="index.html">главная</a></li>
+                                <li class="footer__item"><a href="projects.html">проекты</a></li>
+                                <li class="footer__item"><a href="future.html">направления</a></li>
+                                <li class="footer__item"><a href="gallery.html">галерея</a></li>
+                            </div>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     </body>
 
 </html>
