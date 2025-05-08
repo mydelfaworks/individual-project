@@ -5,5 +5,6 @@
 
 @import url(sections/index/aboutme.css);
 @import url(sections/index/howIknow.css);
+@import url(sections/index/form.css);
 
 @import url(sections/projects/projects.css);

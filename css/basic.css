@@ -3,6 +3,7 @@
 :root {
     --mainBG: #344285;
     --secondBG: #283366;
+    --text: #FAF8F6;
     --border: #1a265a;
 
     --headerLink: #1682d4;
@@ -18,7 +19,7 @@ body, html {
     scroll-behavior: smooth;
     height: 100%;
     background-color: var(--mainBG);
-    color: #FAF8F6;
+    color: var(--text);
     font-family: Ubuntu, sans-serif;
 }
 

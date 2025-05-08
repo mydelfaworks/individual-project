@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
+        <script src="js/send.js"></script>
         <title>татйл хдд</title>
     </head>
 
@@ -63,31 +64,59 @@
                     </div>
                 </div>
             </section>
+
+            <section class="form">
+                <div class="container">
+                    <div class="form__title">связаца со мной</div>
+                    <form>
+                        <label class="form__item">
+                            <span>сабщение</span>
+                            <input type="text" name="message" placeholder="у тебя сам лучш сайт" required>
+                        </label>
+                        <label class="form__item">
+                            <span>ваша почта</span>
+                            <input type="emal" name="mail" placeholder="postal@genoide.fun" required>
+                        </label>
+                        <br>
+                        <span>Согласны ли с <a href="rules.html" target="_blank">условиями конфиденциальности</a>?</span><br>
+                        <label>
+                            <input type="radio" name="rules" value="sure" required>Конечно
+                        </label><br>
+                        <label>
+                            <input type="radio" name="rules" value="nah" required>Не
+                        </label>
+                        <br>
+                        <br>
+                        <button type="submit" id="send_message">оправить</button>
+                    </form>
+                </div>
+            </section>
         </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__content">
                 <div class="footer__info">
-                    <div class="logo__block">
-                        <div class="logo">
-                            <a href="#">
-                                <img src="img/nasral-inc.png">
-                            </a>
+                    <div class="footer__logos">
+                        <div class="logo__block">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="img/nasral-inc.png">
+                                </a>
+                            </div>
+                            <div class="footer__text">
+                                © 2024 Nasral Inc, Все права блаблаблаблеблебле.
+                            </div>
                         </div>
-                        <div class="footer__text">
-                            © 2024 Nasral Inc, Все права блаблаблаблеблебле.
-                        </div>
-                    </div>
-    
-                    <div class="logo__block">
-                        <div class="logo">
-                            <a href="https://honakac.github.io" target="_blank">
-                                <img src="img/r2team.png">
-                            </a>
-                        </div>
-                        <div class="footer__text">
-                            © 2025 r2team, Все права блублублухаблублублу.
+                        <div class="logo__block">
+                            <div class="logo">
+                                <a href="https://honakac.github.io" target="_blank">
+                                    <img src="img/r2team.png">
+                                </a>
+                            </div>
+                            <div class="footer__text">
+                                © 2025 r2team, Все права блублублухаблублублу.
+                            </div>
                         </div>
                     </div>
     
