@@ -11,10 +11,25 @@
     background-size: 100% 100%;
 }
 
+.future__content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 .future__title {
     padding: 10px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+}
+
+.future__list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.future__list-item img {
+    max-width: 100px;
 }
